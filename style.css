@@ -1,0 +1,68 @@
+#headerArea {
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.listItem {
+    display: inline-block;
+    margin: 5px 20px;
+    padding-top: 55px;
+}
+.lists {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lists:hover {
+    color: green;
+}
+.text{
+    font-weight: 500;
+    font-size: 4.5rem;
+    font-style: normal;
+    position: absolute;
+    color: white;
+    top: 35%;
+    padding-left: 10%;
+
+}
+.innertext{
+    font-weight: 300;
+    position: absolute;
+    color: white;
+    padding-left: 10%;
+    top: 70%;
+    font-size: 1.5rem;
+
+}
+.imgtext{
+    font-weight: 600;
+    position: absolute;
+    color: white;
+    padding-left: 10%;
+    top: 70%;
+    font-size: 2.5rem;
+
+
+}
+.imgfile{
+    font-weight: 600;
+    position: absolute;
+    color: white;
+    padding-left: 10%;
+    top: 70%;
+    font-size: 2.5rem;
+
+}
